@@ -23,7 +23,7 @@ module.exports = {
       {
         id: 'styles',
         test: /\.css$/,
-        loader: 'style!css?modules'
+        loader: 'style!css?modules!postcss'
       }
     ]
   },
