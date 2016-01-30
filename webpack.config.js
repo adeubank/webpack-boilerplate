@@ -21,6 +21,7 @@ module.exports = {
         loader: 'babel'
       },
       {
+        id: 'styles',
         test: /\.css$/,
         loader: 'style!css?modules'
       }

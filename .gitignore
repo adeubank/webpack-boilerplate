@@ -1,3 +1,7 @@
+# ignore build
+build
+
+# GitHub supplied ignore file
 # Logs
 logs
 *.log
