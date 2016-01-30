@@ -1,0 +1,29 @@
+{
+  "name": "webpack-boilerplate",
+  "version": "0.0.0",
+  "description": "A simple webpack and react boilerplate project created from http://www.pro-react.com/materials/appendixA/",
+  "main": "app/main.js",
+  "scripts": {
+    "start": "node_modules/.bin/webpack-dev-server --progress",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webpack",
+    "react",
+    "babel",
+    "boilerplate"
+  ],
+  "author": "Allen Eubank",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/adeubank/webpack-boilerplate.git"
+  },
+  "devDependencies": {
+    "webpack": "^1.12.12",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {
+    "json-loader": "^0.5.4"
+  }
+}
